@@ -1,0 +1,151 @@
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal, 800;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+
+}
+
+.logo {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+a:link, a:visited {
+    color: #69696a;
+}
+
+a:hover {
+    color: #D4AF37;
+}
+
+.hireUs {
+    display: block;
+}
+
+a.hireUs:link, a.hireUs:visited {
+    background-color: #000;
+    color: #f9fafc;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+a.hireUs:hover {
+    background-color: #D4AF37;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.chirp {
+    font-size: 32px;
+}
+
+.proin {
+    border-left: 3px solid #C1C1C1;
+    color: #69696a;
+    font-size: 75%;
+    padding-left: 10px;
+}
+
+footer button {
+    background-color: #000;
+    border-radius: 25px;
+    color: #f9fafc;
+    font-size: 16px;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+footer button:hover {
+    background-color: #D4AF37;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        padding: 10px;
+        width: fit-content;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .middleContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .leftColumn {
+        flex: 5.5;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .rightColumn {
+        flex: 4.5;
+        position: relative;
+    }
+
+    .cir1 {
+        background-color: rgb(247, 136, 167, 0.6);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 62px;
+        right: 143px;
+    }
+    
+    .cir2 {
+        background-color: rgb(207, 130, 213, 0.6);
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 85px;
+        right: 72px;
+    }
+    
+    .cir3 {
+        background-color: rgb(247, 193, 162, 0.7);
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        position: absolute;
+        top: 164px;
+        right: 72px;
+    }
+
+    footer {
+        bottom: 10px;
+        left: 50%;
+        position: fixed;
+        transform: translateX(-50%);
+    }
+
+    footer button {
+        width: 180px;
+    }
+}
